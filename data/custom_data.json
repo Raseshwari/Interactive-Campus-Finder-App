@@ -1,0 +1,41 @@
+{
+    "undergraduate": {
+        "Spain": {
+            "Madrid": {
+                "Architecture": "Universidad Carlos III de Madrid",
+                "Language and Area Studies": "Universidad Complutense de Madrid",
+                "Advanced Spanish": "Universidad de Salamanca",
+                "Liberal Arts": {
+                    "Alicante": "Universidad de Alicante",
+                    "Madrid": "UNIVERSIDAD CARLOS III DE MADRID (UC3M)",
+                    "Seville": "Universidad de Sevilla",
+                    "Barcelona": "Universitat Pompeu Fabra",
+                    "question": "Do you prefer Alicante, Madrid or Seville?"
+                },
+                "question": "Dou you prefer Architecture, Language or Liberal Arts?"
+            },
+            "Barcelona": {
+                "Arts": "Barcelona-Arts & Culture, IES",
+                "Journalism": "Barcelona-Journalism & Communications, IES",
+                "Political Science": "Barcelona-Political Science & International Sciences, IES",
+                "question": "Do you prefer Arts, Journalism or Political Science"
+            },
+            "Seville": {
+                "Global Language Immersion": "CIEE Study Center",
+                "New Media Journalism": "Universidad de Sevilla",
+                "Business": {
+                    "International Business": "Universidad Pablo de Olavide",
+                    "Business & Society": "Universidad de Sevilla (University of Seville) School of Economics & Business",
+                    "question": "Do you prefer International business or Business & society?"
+                },
+                "question":"Do you prefer Language Immersion, Journalism or Business?"
+            },
+        "Australia":{
+            
+        },
+            "question": "Do you prefer Spain or Australia?"
+        },
+        "graduate": {},
+        "question": "Do you prefer undergradute or graduate courses?"
+    }
+}

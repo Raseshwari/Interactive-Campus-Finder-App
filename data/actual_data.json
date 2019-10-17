@@ -1,0 +1,53 @@
+{
+    "cities": {
+        "Arabic": {
+            "Ancient": {
+                "name":"MiddleEast Studies", 
+                "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=0f30e6c7e993fafeda90e8dde9b83467"
+            },
+            "New": {
+                "name":"RIT Dubai",
+                "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=0e062b2cfb65db2f6778cd26aad9311d"
+            },
+            "question": "Do you prefer Ancient or New?"
+        },
+        "Spanish": {
+            "Humanities": {
+                "name":"Adv Liberal Arts Barcelona",
+                "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=473cb41401b20b3d91b31432e80e8e4f"
+            },
+            "Sciences": {
+                "name":"Santiago - Health Studies",
+                "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=1d866677013421f319d4a7e175ac8bb4"
+            },
+            "question": "Do you prefer Humanities or Science?"
+        },
+        "question": "Do you prefer Arabic or Spanish?"
+    },
+    "nature": {
+        "mountains": {
+            "South America": {
+                "name":"Semester in Cusco",
+                "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=ae8939c42459a2b58f247a8e2cff284b"
+            },
+            "Asia": {
+                "name":"Big Cats of Himalayas",
+                "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=ddbf516c2873f7087f3d631ca7f239a2"
+            },
+            "question": "Do you prefer South America or Asia?"
+        },
+        "islands": {
+            "Carribean": {
+                "name":"Marine Resource Studies",
+                "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=e66910d6fcad2576bea3f4a4dcef3897"
+            },
+            "South Pacific": {
+                "name":"Protecting the Phoenix Island",
+                "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=1008cf2cf5051059f9138d0787a23388"
+            },
+            "question": "Do you prefer Carribean or South Pacific?"
+        },
+        "question": "Do you prefer mountains or islands?"
+    },
+    "question": "Do you prefer cities or nature?"
+}

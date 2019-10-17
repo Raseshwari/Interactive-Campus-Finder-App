@@ -1,0 +1,85 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hopefully</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body onload="init()">
+    <div class="navbar navbar-dark bg-dark fixed-top">
+        <div>
+            <img src="images/rit-logo.png">
+        </div>
+        <div>
+            <h4 id="user-details"></h4>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-light switch-data" id="switch-data">Switch Data</button>
+        </div>
+    </div>
+    <div class="landing-container">
+        <div class="landing-message">
+            <h2>Welcome to the best campus finder engine</h2>
+        </div>
+        <div class="form-container" action="#get-started">
+            <section class="form-section">
+                <form id="form" class="form-content" action="index.html">
+                    <div class="form-group">
+                        <label for="first-name" class="label-default">First Name</label>
+                        <input type="text" class="form-control" id="first-name" placeholder="Raseshwari" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" class="form-control" id="last-name" placeholder="Pulle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="abc@xyz.com">
+                    </div>
+                    <div class="form-group get-started">
+                        <a id="get-started-btn" class="btn btn-get-started scrollto">Get Started</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <section>
+        <div id="outer-banner">
+            <h2 id="banner">Education is <img src="images/heart.png"/> in its Purest Form</h2>
+        </div>
+    </section>
+    <section id="get-started" class="padd-section text-center wow fadeInUp section-2">
+        <div class="dropdown-div">
+            <div id="root"></div>
+            <div>
+                <a href="#recent-searches" class="btn btn-get-started scrollto">View Recent Searches</a>
+            </div>
+        </div>
+        <section>
+            <div class="middle-banner">
+                <h2 id="banner2">Everything you don't know is something you can learn</h2>
+            </div>
+        </section>
+        <div id="recent-searches" class="viewHistory">
+            <label for="recent-history" id="history-label">Recently Viewed</label>
+            <div id="recent-history"></div>
+            <div>
+                <button type="submit" class="btn btn-light" id="clear-storage">Clear Storage</button>
+            </div>
+        </div>
+
+    </section>
+    <script src="cookies.js"></script>
+    <script src="browserDetect.js"></script>
+    <script src="formValidation.js"></script>
+    <script src="localstorage-script.js"></script>
+    <!-- <script src="cookie-script.js"></script> -->
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+{
+    "cities": {
+        "Arabic": {
+            "Ancient": "MiddleEast Studies",
+            "New": "RIT Dubai",
+            "question": "Do you prefer Ancient or New?"
+        },
+        "Spanish": {
+            "Humanities": "Adv Liberal Arts Barcelona",
+            "Sciences": "Santiago - Health Studies",
+            "question": "Do you prefer Humanities or Science?"
+        },
+        "question": "Do you prefer Arabic or Spanish?"
+    },
+    "nature": {
+        "mountains": {
+            "South America": "Semester in Cusco",
+            "Asia": "Big Cats of Himalayas",
+            "question": "Do you prefer South America or Asia?"
+        },
+        "islands": {
+            "Carribean": "Marine Resource Studies",
+            "South Pacific": "Protecting the Phoenix Island",
+            "question": "Do you prefer Carribean or South Pacific?"
+        },
+        "sea": {
+            "Arabian Sea": "Learn to Swim",
+            "Pacific Ocean": "Searching pearls",
+            "sky": {
+                "Mars": "Marine Resource Studies",
+                "Jupiter": "Protecting the Phoenix Island",
+                "question": "Which planet?"
+            },
+            "question": "Do you prefer Carribean or South Pacific?"
+        },
+        "question": "Do you prefer mountains or islands?"
+    },
+    "question": "Do you prefer cities or nature?"
+}
