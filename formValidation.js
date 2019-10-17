@@ -6,6 +6,7 @@ document.getElementById("get-started-btn").setAttribute("href","#get-started");
 
 formButton.addEventListener("click", function (e) {
     if(validateFormFields()){
+        setNameCookie();
         document.getElementById("get-started-btn").setAttribute("href","#get-started");
         console.log( document.getElementById("get-started-btn"))
     }else{

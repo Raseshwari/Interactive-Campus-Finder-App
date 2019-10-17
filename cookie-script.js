@@ -1,11 +1,13 @@
 
-document.getElementById("first-name").addEventListener("blur", function(e) {
-    console.log(e);
-    cookies.setCookie("userName", e.target.value);
-});
+var h4ele = document.getElementById("user-details");
+var userName = cookies.getCookie("userName");
 
-let h4ele = document.getElementById("user-details");
-let userName = cookies.getCookie("userName");
+
+function setNameCookie(){
+    var cookieName = document.getElementById("first-name").value;
+    cookies.setCookie("userName", cookieName);
+}
+
 
 if(userName){
     let textNode = document.createTextNode("Welcome "+userName);
