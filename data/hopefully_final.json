@@ -1,169 +1,169 @@
 {
-    "undergraduate": {
-        "Architecture": {
+    "Age < 22": {
+        "Building": {
             "Old Port City": {
-                "name": "Universidad de Alicante, Spain",
+                "name": "Universidad de Alicante (Architecture) Spain",
                 "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=1ac52e6a3c736e841996939182101cd2"
             },
             "Coast": {
-                "name": "Griffith University, Australia",
+                "name": "Griffith University (Architecture) Australia",
                 "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=d0a6f38a804e586ec52bc2d27ca1df1d"
             },
-            "question": "Are you interested in studying in an old port city or near coast"
+            "question": "Would you prefer spending your time in an old port city or at coast?"
         },
-        "Advertising": {
-            "Australia": {
-                "Coast": {
-                    "name": "Bond University, Gold Coast",
+        "Publicizing": {
+            "Urbanized Country": {
+                "Coastal Life": {
+                    "name": "Bond University (Advertising) Gold Coast",
                     "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=a7fd8a64a7797c6e0cdf4e00fab04b05"
                 },
                 "City Life": {
-                    "name": "University of Queensland, Brisbane",
+                    "name": "University of Queensland (Advertising) Brisbane",
                     "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=37d6c76760eb3c522f794ab6339c064e"
                 },
-                "question": "Do you prefer Coast or City Life?"
+                "question": "Do you prefer Coastal or City Life?"
             },
-            "Italy": {
-                "Rome": {
-                    "Open Campus Block": {
-                        "name": "CIEE Global Institute",
+            "Art Rich Country": {
+                "Regular Tourist": {
+                    "Flexible Choices": {
+                        "name": "CIEE Global Institute (Advertising) Rome",
                         "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=5ef2e10eda7b8b036620e970c98731e1"
                     },
-                    "Summer Internship": {
-                        "name": "IES Abroad Rome Center",
+                    "Fixed Choices": {
+                        "name": "IES Abroad Rome Center (Advertising) Rome",
                         "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=992ddcf4ac00718acfe63e242d8c7e43"
                     },
-                    "question": "Do you prefer Open Campus Block or Summer Internship?"
+                    "question": "Do you prefer flexibility of choice or fixed short choices?"
                 },
-                "Milan": {
-                    "Full time semester": {
-                        "name": "IES Abroad Milan Center",
+                "Fashion shopper": {
+                    "Full commitment": {
+                        "name": "IES Abroad Milan Center (Advertising) Milan",
                         "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=22bbdbdd2edc3312f315be19985b518a"
                     },
-                    "Summer Internship": {
-                        "name": "IES Study Center",
+                    "Partial commitment": {
+                        "name": "IES Study Center (Advertising) Milan",
                         "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=41fd185a091c66ce804a17e3afda0e40"
                     },
-                    "question": "Do you prefer full time semester or summer internship?"
+                    "question": "Do you prefer full commitment or partial commitment?"
                 },
-                "question": "Do you prefer Rome or Milan?"
+                "question": "Are you a regular tourist or fashion shopper?"
             },
-            "question": "Are you interested in studying in Australia or Italy?"
+            "question": "Would you prefer spending time in an urbanized country or art rich country?"
         },
-        "Business MAnagement": {
-            "Country of Fashion - France": {
-                "mountains": {
-                    "name": "Toulouse Business School (TBS), Toulouse",
+        "Business Management": {
+            "Fashion Country": {
+                "Mountains": {
+                    "name": "Toulouse Business School (Toulouse, France)",
                     "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=5278104872ee646167c5a82d2b48d40b"
                 },
-                "non-industrial city": {
-                    "name": "IPAG Business School, Nice",
+                "Non Industrial": {
+                    "name": "IPAG Business School (Nice, France)",
                     "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=92cbd66cc298bbd3502bdbd59dd26603"
                 },
                 "question": "Do you love mountains or non-industrial city?"
             },
-            "Australia":{
-                "Sydney":{
+            "Urbanized Country":{
+                "Port City":{
                     "Global Internship":{
-                        "name": "CIEE Study Center",
+                        "name": "CIEE Study Center (Sydney, Australia)",
                         "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=9e56a72f6162e6c5597624e966b8e9de"
                     },
-                    "Suburban":{
-                        "name": "Macquarie Univeristy",
+                    "Suburban Area":{
+                        "name": "Macquarie Univeristy (Sydney, Australia)",
                         "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=e010eeddf9da33dc792522bc51034623"
                     },
-                    "City having colonial heritage":{
-                        "name":"University of Sydney",
+                    "Colonial heritage":{
+                        "name":"University of Sydney (Sydney, Australia)",
                         "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=c47a25f6ee1edbee443ff6eeda371585"
                     },
                     "Coastal Area":{
-                        "name": "University of New South Wales",
+                        "name": "University of New South Wales (Sydney, Australia)",
                         "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=6ed3f9acbb3541275501ce11dc27f5ce"
                     },
-                    "question": "Do you prefer to study in Global Internship, Suburban area, City having colonial heritage or Coastal Area?"
+                    "question": "Are you looking for opportunities in Global Internship, Suburban area, City having colonial heritage or Coastal Area?"
                 },
-                "Brisbane":{
+                "Riverside City":{
                     "city":{
-                        "name":"Queensland University of Technology",
+                        "name":"Queensland University of Technology (Brisbane, Australia)",
                         "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=cf6558e0960187d6f1f6da5a70e4d425"
                     },
                     "riverside":{
-                        "name":"University of Queensland",
+                        "name":"University of Queensland (Brisbane, Australia)",
                         "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=37d6c76760eb3c522f794ab6339c064e"
                     },
-                    "question": "Do you prefer studying in city or Along Riverside?"
+                    "question": "Do you prefer living in city or by the riverside?"
                 },
-                "Wollongong":{
-                    "name":"University of Wollongong",
+                "Sea Side City":{
+                    "name":"University of Wollongong (Wollongong, Australia)",
                     "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=053ee2e52d330e456db8cc0aec688f32"
                 },
-                "question":"Do you prefer studying in Sydney, Brisbane or Wollongong?"
+                "question":"Do you prefer spending time in city near port, riverside city or sea side city?"
             },
-            "question": "Are you interested in studying in country of Fashion or country of natural wonders, beaches & desserts?"
+            "question": "Do you prefer a fashion country or urbanized country?"
         },
-        "question": "Are you passionate about Architecture, Advertising or Business Management?"
+        "question": "Are you good at building, publicizing or managing businesses?"
     },
-    "graduate": {
+    "Age > 22": {
         "Art":{
-            "France":{
+            "Eiffel Tower":{
                 "name": "Transnational Workshop: Digital Creation 'Beyond the Screen'",
                 "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=da6bc2d85c20ee9cfba92ef001570c90"
             },
-            "Italy":{
-                "Florence":{
-                    "name":"Santa Reparata International School of Art",
+            "Colosseum":{
+                "Historical City":{
+                    "name":"Santa Reparata International School of Art (Florence)",
                     "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=02062b4e59a4226d534fecdda08c6369"
                 },
-                "Milan":{
-                    "name":"Nuova Accademia di Belle Arti",
+                "Urban City":{
+                    "name":"Nuova Accademia di Belle Arti (Milan)",
                     "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=0869d0fb09742f799ebedae2187aeb49"
                 },
-                "Rome":{
-                    "name":"Rome: Examining Art and Design in the Eternal City",
+                "Heritage City":{
+                    "name":"Rome: Examining Art and Design in the Eternal City (Rome)",
                     "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=04e4efe8f5edf70016b21c7f028bea4f"
                 },
-                "Venice":{
-                    "name": "Venice Biennale",
+                "Island City":{
+                    "name": "Venice Biennale (Venice)",
                     "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=a47daca88e02f32d5f479c1b7097b555"
                 },
-                "question":"Do you prefer Florence, Milan, Rome or Venice?"
+                "question":"Would you prefer Historical, Urban, Heritage or Island City?"
             },
-            "question": "Do you prefer France or Italy?"
+            "question": "Your dream vaccation would be at the Eiffel Tower or at the Colosseum?"
         },
-        "Biomedical Sciences":{
+        "Sciences":{
             "name": "University of Adelaide",
             "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=0aeb78be6abc56097e09c3c19570e2af"
         },
         "Design":{
-            "Spain":{
-                "name":"Elisava, Barcelona School of Design and Engineering",
+            "Transcontinental":{
+                "name":"Elisava, Barcelona School of Design and Engineering (Spain)",
                 "link":"https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=d1590a7f4dbd634e694e3993736b2d4a"
             },
-            "Italy":{
-                "Milan":{
-                    "Domus Academy":{
-                        "name": "Domus Academy",
+            "The Colosseum":{
+                "Urban City":{
+                    "Italian":{
+                        "name": "Domus Academy (Milan, Italy)",
                         "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=acee7ab283be29239ecf2c94a253e0db"
                     },
-                    "Nouva Accademia":{
-                        "name": "Nuova Accademia di Belle Arti",
+                    "English":{
+                        "name": "Nuova Accademia di Belle Arti (Milan, Italy)",
                         "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=0869d0fb09742f799ebedae2187aeb49"
                     },
-                    "question": "Do you prefer Domus Academy or Nouva Accademia?"
+                    "question": "Do you understand Italian or English?"
                 },
-                "Rome":{
-                    "name": "Rome: Examining Art and Design in the Eternal City",
+                "Heritage City":{
+                    "name": "Examining Art and Design in the Eternal City (Rome, Italy)",
                     "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=04e4efe8f5edf70016b21c7f028bea4f"
                 },
-                "question": "Do you prefer Milan or Rome?"
+                "question": "Do you prefer Heritage city or Urban city?"
             },
-            "Colombia":{
-                "name":"Engineering Design and Innovation for Local Impact - Colombia",
+            "Mountain Ranges":{
+                "name":"Engineering Design and Innovation for Local Impact (Colombia)",
                 "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=5cefb0002dec63a759c3caab5fe70fcf"
             },
-            "question": "Do you prefer Spain, Italy or Colombia?"
+            "question": "Do you prefer visiting a transcontinental country, country having the Colosseum or a mountain range country?"
         },
-        "History and Ecology":{
+        "History":{
             "name": "Parent Program - Explore Croatia: Culture, History & Ecology",
             "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=0c84a28cc0b7282f27fad5258fde751a"
         },
@@ -171,11 +171,11 @@
             "name": "Photography in Cuba",
             "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=74dd757c631f5411d7b36e2a2d2208e1"
         },
-        "GameDesign":{
+        "Gaming":{
             "name":"Game Design and Development in Germany",
             "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=da1aa1063bdc88e4265b1b9a485b7c8d"
         },
-        "question": "Are you passionate about Art, Biomedical Sciences, Design, History & Ecology, Photography or Game Design?"
+        "question": "Are you passionate about Art, Sciences, Design, History, Photography or Gaming?"
     },
-    "question": "Are you interested in Undergraduate or Graduate level courses?"
+    "question": "Is your age less than 22 or greater 22?"
 }

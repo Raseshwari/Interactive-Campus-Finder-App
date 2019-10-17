@@ -1,4 +1,3 @@
-
 var h4ele = document.getElementById("user-details");
 var userName = cookies.getCookie("userName");
 

@@ -79,7 +79,12 @@ function createSelectComponent(parentNode, data) {
             div.appendChild(selectEle);
             parentNode.appendChild(div);
         } else {
+            console.log(routeArr, routeArr.join("-->"))
             var resultDiv = document.createElement("div");
+            var selectionResultDiv = document.createElement("div");
+            var achorEleDiv = document.createElement("div");
+
+            var selectionResultDiv = document.createTextNode(routeArr.join("-->"));
             resultDiv.setAttribute("class", "result-div");
 
             var anchorEle = document.createElement("a");
@@ -88,7 +93,9 @@ function createSelectComponent(parentNode, data) {
             anchorEle.textContent = data.name;
             anchorEle.setAttribute("class", "result-anchor");
 
-            resultDiv.appendChild(anchorEle);
+            achorEleDiv.appendChild(anchorEle);
+            resultDiv.appendChild(selectionResultDiv);
+            resultDiv.appendChild(achorEleDiv);
             div.removeChild(div.firstChild);
             div.appendChild(resultDiv);
             parentNode.appendChild(div);
@@ -212,7 +219,6 @@ if (switchButton) {
 }
 
 function browserDetect() {
-    console.log("browserDetect", BrowserDetect.browser, BrowserDetect.version)
     var notSupportedBrowser = false;
     var browserName = BrowserDetect.browser;
     var browserVersion = BrowserDetect.version;
