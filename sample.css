@@ -109,6 +109,10 @@ img{
     background-color: transparent;
 }
 
+#recent-btn{
+    padding-bottom: 10px;
+}
+
 .errDiv{
     position: -webkit-sticky;
     position: fixed;
@@ -127,20 +131,31 @@ img{
     width:50%;
     margin: 0 auto;
     margin-bottom: 15px;
-    animation: slide-up 0.8s ease;
+    /* animation: slide-up 0.8s ease; */
     font-size: 1.5em;
     color:white;
 }  
 
 .result-div{
     margin-bottom: 20px;
-    animation: slide-up 0.6s ease;
+    /* animation: slide-up 0.6s ease; */
     color: white;
     font-size: 2em;
 }
 
 .result-anchor{
     color: white;
+    animation:gradual 2s ease-in;
+}
+
+.result-all{
+    color: white;
+}
+
+.select-result{
+    /* animation: gradual 10s infinite;
+    animation-duration: 1.5s; */
+    font-size: 0.8em;
 }
 
 .err-msg{
@@ -155,5 +170,16 @@ img{
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes gradual {
+    0% {
+        font-size: 0.5em;
+        /* background-color: #001F3F; */
+    }
+    100% {
+        font-size: 0.8em;
+        /* background-color: #FF4136; */
     }
 }

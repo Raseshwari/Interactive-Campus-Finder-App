@@ -79,18 +79,26 @@ function createSelectComponent(parentNode, data) {
             div.appendChild(selectEle);
             parentNode.appendChild(div);
         } else {
-            console.log(routeArr, routeArr.join("-->"))
+            console.log(routeArr, routeArr.join('<img src="./images/arrow.jpg"'))
             var resultDiv = document.createElement("div");
             var selectionResultDiv = document.createElement("div");
             var achorEleDiv = document.createElement("div");
 
-            var selectionResultDiv = document.createTextNode(routeArr.join("-->"));
             resultDiv.setAttribute("class", "result-div");
+            selectionResultDiv.setAttribute("class","select-result")
+
+            
+            var selectResultTitle = document.createTextNode("Your choices ➣ ");
+            var selectionResultValue = document.createTextNode(routeArr.join(' ➱ '));
+            selectionResultDiv.appendChild(selectResultTitle);
+            selectionResultDiv.appendChild(selectionResultValue);
+
+            // selectionResultDiv.appendChild(document.createTextNode("University that best matches you is"))            
 
             var anchorEle = document.createElement("a");
             anchorEle.setAttribute("href", data.link);
             anchorEle.setAttribute("target", "_blank");
-            anchorEle.textContent = data.name;
+            anchorEle.textContent = 'Best match for you ♥ ' + data.name;
             anchorEle.setAttribute("class", "result-anchor");
 
             achorEleDiv.appendChild(anchorEle);
@@ -134,7 +142,7 @@ function displayRecentViewed() {
     anchorEle.setAttribute("href", viewHistory[key - 1].link);
     anchorEle.setAttribute("target", "_blank");
     anchorEle.textContent = viewHistory[key - 1].name
-    anchorEle.setAttribute("class", "result-anchor");
+    anchorEle.setAttribute("class", "result-all");
 
     div.appendChild(anchorEle);
     historyDiv.appendChild(div);
