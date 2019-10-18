@@ -210,39 +210,18 @@ if (switchButton) {
         // e.preventDefault();
         clearRouteArr();
         removeAllDOMElements(rootDiv);
-        decrementSelectCounter(); //getDataFromAjaxCall('./data/actual_data.json');
+        decrementSelectCounter(); 
 
         if (!switchData) {
             switchData = true;
             switchButton.style.background = "rgb(26,255,0)"
-            getDataFromAjaxCall('./data/hopefully_final.json');
+            getDataFromAjaxCall('./data/actual_data.json');
         } else {
             switchData = false;
             switchButton.style.background = "rgb(255,255,255)";
-            getDataFromAjaxCall('./data/actual_data.json');
+            getDataFromAjaxCall('./data/custom_data.json');
         }
     });
-}
-
-function browserDetect() {
-    var notSupportedBrowser = false;
-    var browserName = BrowserDetect.browser;
-    var browserVersion = BrowserDetect.version;
-
-    if (browserName === 'Explorer' && browserVersion < 11) {
-        notSupportedBrowser = true;
-    } else if (browserName == 'Chrome' && browserVersion < 67) {
-        notSupportedBrowser = true;
-    } else if (browserName == 'Firefox' && browserVersion < 60) {
-        notSupportedBrowser = true;
-    }
-
-    if (notSupportedBrowser) {
-        document.body.style.background = "white";
-        // setTimeout(function () {
-        //     window.location = "https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMIvoTwkuOa5QIVUuDICh18YAAbEAAYASABEgKbofD_BwE&gclsrc=aw.ds";
-        // }, 2000);
-    }
 }
 
 var clearStorage = document.getElementById("clear-storage");
@@ -280,5 +259,5 @@ function init(cookies) {
 
     displayAllFromLocalStorage();
    
-    getDataFromAjaxCall('./data/actual_data.json');
+    getDataFromAjaxCall('./data/custom_data.json');
 } 
