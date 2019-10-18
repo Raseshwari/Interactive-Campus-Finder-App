@@ -7,6 +7,7 @@ body{
     /* color: white !important; */
 }
 
+
 img{
     height: 50px;
     width: 50px;
@@ -114,14 +115,13 @@ img{
 }
 
 .errDiv{
-    position: -webkit-sticky;
     position: fixed;
-    /* top: 20px; */
+    top: 100px;
     margin: 0 auto;
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-    visibility: hidden;
+    left: 600px;
+    height: 400px;
+    width: 400px;
+    background-color: red;
 }
 
 .anim-div{
@@ -131,31 +131,37 @@ img{
     width:50%;
     margin: 0 auto;
     margin-bottom: 15px;
-    /* animation: slide-up 0.8s ease; */
+    animation: slide-up 0.8s ease;
     font-size: 1.5em;
     color:white;
 }  
 
 .result-div{
     margin-bottom: 20px;
-    /* animation: slide-up 0.6s ease; */
+    animation: slide-up 0.6s ease;
     color: white;
     font-size: 2em;
 }
 
 .result-anchor{
-    color: white;
-    animation:gradual 2s ease-in;
+    color: white !important;  
 }
 
-.result-all{
+.anim-result{
     color: white;
+    animation:gradual 2.5s ease-in;
+    height:auto;
+    width: 60%;
+    padding: 5px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 .select-result{
-    /* animation: gradual 10s infinite;
-    animation-duration: 1.5s; */
-    font-size: 0.8em;
+    font-size: 0.6em;
+    margin-bottom:15px;
 }
 
 .err-msg{
@@ -176,10 +182,10 @@ img{
 @keyframes gradual {
     0% {
         font-size: 0.5em;
-        /* background-color: #001F3F; */
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     }
     100% {
         font-size: 0.8em;
-        /* background-color: #FF4136; */
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     }
 }

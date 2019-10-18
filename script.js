@@ -93,13 +93,11 @@ function createSelectComponent(parentNode, data) {
             selectionResultDiv.appendChild(selectResultTitle);
             selectionResultDiv.appendChild(selectionResultValue);
 
-            // selectionResultDiv.appendChild(document.createTextNode("University that best matches you is"))            
-
             var anchorEle = document.createElement("a");
             anchorEle.setAttribute("href", data.link);
             anchorEle.setAttribute("target", "_blank");
             anchorEle.textContent = 'Best match for you ♥ ' + data.name;
-            anchorEle.setAttribute("class", "result-anchor");
+            anchorEle.setAttribute("class", "anim-result");
 
             achorEleDiv.appendChild(anchorEle);
             resultDiv.appendChild(selectionResultDiv);
@@ -138,13 +136,13 @@ function displayRecentViewed() {
     var viewHistory = JSON.parse(getFromLocalStorage("viewHistory")) || {};
     var key = Object.keys(viewHistory).length + 1;
 
-    var anchorEle = document.createElement("a");
-    anchorEle.setAttribute("href", viewHistory[key - 1].link);
-    anchorEle.setAttribute("target", "_blank");
-    anchorEle.textContent = viewHistory[key - 1].name
-    anchorEle.setAttribute("class", "result-all");
+    var resultAnchorEle = document.createElement("a");
+    resultAnchorEle.setAttribute("href", viewHistory[key - 1].link);
+    resultAnchorEle.setAttribute("target", "_blank");
+    resultAnchorEle.textContent = viewHistory[key - 1].name
+    resultAnchorEle.setAttribute("class", "result-anchor");
 
-    div.appendChild(anchorEle);
+    div.appendChild(resultAnchorEle);
     historyDiv.appendChild(div);
 }
 
@@ -240,10 +238,10 @@ function browserDetect() {
     }
 
     if (notSupportedBrowser) {
-        alert("Browser not supported.\nPage will be redirected to supported browser download page in 3 secs");
-        setTimeout(function () {
-            window.location = "https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMIvoTwkuOa5QIVUuDICh18YAAbEAAYASABEgKbofD_BwE&gclsrc=aw.ds";
-        }, 3000);
+        document.body.style.background = "white";
+        // setTimeout(function () {
+        //     window.location = "https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMIvoTwkuOa5QIVUuDICh18YAAbEAAYASABEgKbofD_BwE&gclsrc=aw.ds";
+        // }, 2000);
     }
 }
 
